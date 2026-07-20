@@ -1,8 +1,8 @@
-# 📊 analytics-cookbook
+# 📊 analytics-portfolio
 
 > **비즈니스를 먼저 경험한 데이터 분석가의 포트폴리오 저장소**
 > 이커머스 앱마켓에서 마케팅 운영을 하며 필요해서 시작한 분석이, 지금은 본업이 되었습니다.
-> 실무 산출물의 가명 재현 샘플과 6년의 분석 노하우를 정리합니다.
+> 실무 산출물의 가명 재현 샘플과 6년의 분석 이력을 정리합니다.
 
 ---
 
@@ -58,7 +58,7 @@
 ## 📂 저장소 구성
 
 ```
-analytics-cookbook/
+analytics-portfolio/
 ├── README.md            ← 이 문서
 ├── PROJECTS.md          ← 수행 프로젝트 전체 리스트 (30건+, 증빙 링크)
 ├── dashboards/          ← Tableau 대시보드 재현 샘플 3종
@@ -66,12 +66,13 @@ analytics-cookbook/
 ├── onboarding_playbook/ ← 파트너 온보딩 Knowledge Hub + 플레이북 재현 샘플 9종
 ├── ranking_algorithm/   ← 신작 랭킹 알고리즘 (실서비스 화면)
 ├── conferences/         ← 컨퍼런스 참관기 (2024.07~2026.06, 8건)
-├── cookbook/            ← 분석 레시피 노트북 (작성 중)
 └── case_studies/        ← 실무 재구현 케이스 스터디 (작성 중)
     ├── CS1 프로모션 사후분석 (순증 효과·ROI·일회성 사용자 분리)
     ├── CS2 프로모션 대상 선정 자동화 파이프라인
     └── CS3 신규 상품 유저 유입·코호트 분석
 ```
+
+> 🍳 분석 레시피 노트북(**analytics-cookbook**)은 별도 저장소로 준비 중입니다.
 
 ---
 
