@@ -1,8 +1,8 @@
 # 📊 analytics-cookbook
 
-> **비즈니스를 먼저 경험한 데이터 분석가의 분석 레시피 저장소**
+> **비즈니스를 먼저 경험한 데이터 분석가의 포트폴리오 저장소**
 > 이커머스 앱마켓에서 마케팅 운영을 하며 필요해서 시작한 분석이, 지금은 본업이 되었습니다.
-> 이 저장소는 그 6년의 노하우를 재사용 가능한 레시피로 정리한 것입니다.
+> 실무 산출물의 가명 재현 샘플과 6년의 분석 노하우를 정리합니다.
 
 ---
 
@@ -18,6 +18,26 @@
 
 📁 **선별 포트폴리오**: [tinyurl.com/kyungmin-ba](https://tinyurl.com/kyungmin-ba)
 💼 **LinkedIn**: [linkedin.com/in/kkyungmin1](https://linkedin.com/in/kkyungmin1)
+
+---
+
+## 🖼 프로젝트 갤러리
+
+실물 산출물을 가명 데이터로 재현한 샘플입니다. 각 폴더의 README에 배경 → 설계 → 결과 서사가 정리되어 있습니다.
+
+| 프로젝트 | 내용 |
+|---|---|
+| 📈 [Tableau Dashboards](dashboards/README.md) | GMV Breakdown(리워드별 분해 + 공헌이익 라인) · 주차별 게임 포지셔닝(로그-로그 궤적 트레일) · 이벤트 퍼널(발급→사용→거래→ROAS) — 셀프서브 BI 3종 |
+| 📖 [SQL Dictionary](sql_dictionary/README.md) | "같은 지표, 다른 숫자" 문제를 해결한 쿼리 표준화 위키 — 기준정의·[CTE] 모듈·테이블/코드 사전·ERD |
+| 🌐 [Partner Onboarding Knowledge Hub](onboarding_playbook/README.md) | 해외 파트너 Self-service Onboarding 시스템 — 35+ 페이지 Knowledge Hub + 34장 마케팅 플레이북, 1.5년 운영 |
+| 🏆 [신작 랭킹 알고리즘](ranking_algorithm/README.md) | 2019년 설계한 시간감쇠 랭킹 — **현재까지 실서비스 운영 중** (실화면 포함) |
+
+전체 수행 이력은 **[PROJECTS.md](PROJECTS.md)** (30건+, 증빙 링크 포함)에서 확인할 수 있습니다.
+
+<p>
+<a href="dashboards/README.md"><img src="dashboards/images/gmv_breakdown_sample.png" alt="GMV Breakdown" width="49%"></a>
+<a href="onboarding_playbook/README.md"><img src="onboarding_playbook/images/help_toc_sample.png" alt="Onboarding Hub" width="33%"></a>
+</p>
 
 ---
 
@@ -39,28 +59,25 @@
 
 ```
 analytics-cookbook/
-├── README.md          ← 이 문서
-├── PROJECTS.md        ← 수행 프로젝트 전체 리스트 (30건+)
-├── make_sample.py     ← 합성 데이터 생성기 (준비 중)
-├── cookbook/          ← 분석 레시피 노트북 (준비 중)
-│   ├── 01 데이터 불러오기      02 전처리
-│   ├── 03 집계·피벗           04 세그멘테이션
-│   ├── 05 매핑·딕셔너리        06 시각화·스코어링
-│   ├── 07 BI 파이프라인       08 고급 패턴·예측
-├── case_studies/      ← 실무 재구현 케이스 스터디 (준비 중)
-│   ├── CS1 프로모션 사후분석 (순증 효과·ROI·일회성 사용자 분리)
-│   ├── CS2 프로모션 대상 선정 자동화 파이프라인
-│   └── CS3 신규 상품 유저 유입·코호트 분석
-├── dashboards/        ← 대시보드·데이터 거버넌스 산출물 재현 샘플 (8종)
-├── onboarding_playbook/ ← 글로벌 파트너 온보딩 플레이북 재현 샘플 (4종)
-└── conferences/       ← 컨퍼런스 참관기 (2024.07~2026.06, 8건)
+├── README.md            ← 이 문서
+├── PROJECTS.md          ← 수행 프로젝트 전체 리스트 (30건+, 증빙 링크)
+├── dashboards/          ← Tableau 대시보드 재현 샘플 3종
+├── sql_dictionary/      ← SQL 표준화 위키 재현 샘플 5종
+├── onboarding_playbook/ ← 파트너 온보딩 Knowledge Hub + 플레이북 재현 샘플 9종
+├── ranking_algorithm/   ← 신작 랭킹 알고리즘 (실서비스 화면)
+├── conferences/         ← 컨퍼런스 참관기 (2024.07~2026.06, 8건)
+├── cookbook/            ← 분석 레시피 노트북 (작성 중)
+└── case_studies/        ← 실무 재구현 케이스 스터디 (작성 중)
+    ├── CS1 프로모션 사후분석 (순증 효과·ROI·일회성 사용자 분리)
+    ├── CS2 프로모션 대상 선정 자동화 파이프라인
+    └── CS3 신규 상품 유저 유입·코호트 분석
 ```
 
 ---
 
 ## 🔒 원칙
 
-1. **모든 데이터는 합성 데이터입니다.** 실제 회사 데이터·코드·내부 기준값은 일절 포함하지 않으며, 모든 케이스는 공개 가능한 형태로 재구현했습니다.
+1. **모든 데이터는 합성·가명 데이터입니다.** 실제 회사 데이터·코드·내부 기준값은 일절 포함하지 않으며, 모든 케이스는 공개 가능한 형태로 재구현했습니다.
 2. **레시피 형식**: `언제 쓰나 → 재료(데이터 형태) → 코드 → 주의할 점`. "언제 쓰나"는 전부 실무에서 직접 겪은 상황입니다.
 3. **검증 규율**: 모든 노트북은 첫 셀에 "확인해야 할 질문"을 먼저 쓰고 시작하며, Sanity Check 셀을 상설로 둡니다.
 

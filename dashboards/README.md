@@ -1,4 +1,4 @@
-# 📊 Dashboards & Data Governance 산출물
+# 📊 Tableau Dashboards — 셀프서브 BI 재현 샘플
 
 > ⚠️ 아래 이미지는 재직 중 직접 설계·운영한 실물 산출물을 **가명 데이터로 재현한 샘플**입니다.
 > 게임명·테이블명·코드값·수치는 모두 가공된 것이며, 실데이터가 아닙니다. 구조·산식·운영 방식은 실물과 동일합니다.
@@ -24,34 +24,8 @@ X=신규 다운로더, Y=거래액(로그-로그) 산점도에 Tableau Pages 히
 
 ![Coupon Funnel](images/coupon_funnel_sample.png)
 
-## 4. 시간감쇠 기반 신작 랭킹 — 프로덕션 실화면
+---
 
-2019년에 설계한 신작 랭킹 알고리즘(신선도 부스트 + 다중 지표 정규화 가중합)이 적용된 **'최신출시' 탭의 현재 실서비스 화면**입니다. 기존 인기·매출 랭킹을 신작이 뚫지 못하는 문제를 해결하기 위해 설계했고, 개발 이관 후 현재까지 프로덕션에서 운영 중입니다. 공개된 앱 화면이므로 마스킹 없이 게시합니다.
-
-<img src="images/ranking_newrelease_live.png" alt="New Release Ranking — Live" width="360">
-
-## 5. SQL Dictionary (SharePoint 위키)
-
-분석 쿼리 표준화를 위해 직접 구축·운영한 사내 위키. "같은 지표인데 사람마다 숫자가 다른" 문제를 기준정의 문서화로 해결.
-
-### 홈 — Dictionary & News + SQL Sample 목록
-기준정의/집계/예제 구분, 업무영역 태그, 재사용 가능한 [CTE] 모듈, 관련 문서 연결.
-
-![SQL Dictionary Home](images/sql_dictionary_home_sample.png)
-
-### 상세 페이지 — 전사 표준 거래액 정의
-산식 + 제외조건 + 검증용 대시보드 링크 + 주석 달린 base 쿼리. "정의용 base이므로 집계는 목적에 맞게 별도 작성" 등 사용 가이드 포함.
-
-![SQL Dictionary Detail](images/sql_dictionary_detail_sample.png)
-
-### ERD — 포인트 도메인
-테이블 간 조인키를 명시하고, 포인트 *지급 예정액 / 지급액 / 사용액*이 각각 어느 테이블·컬럼에서 나오는지 주석으로 구분.
-
-![SQL Dictionary ERD](images/sql_dictionary_erd_sample.png)
-
-### Table Dictionary — 컬럼 사전 & 코드 조견표
-주요 테이블의 컬럼 정의(타입·설명·샘플값)와 코드성 컬럼의 CODE_NM 시트 상호참조. 결제수단·리워드·이벤트 유형 코드를 한 곳에서 조회.
-
-![Table Dictionary](images/table_dictionary_main_sample.png)
-
-![Code Sheet](images/table_dictionary_codenm_sample.png)
+**관련 산출물** (별도 프로젝트로 분리)
+- 📖 [SQL Dictionary — 분석 쿼리 표준화 위키](../sql_dictionary/README.md)
+- 🏆 [시간감쇠 기반 신작 랭킹 알고리즘 — 프로덕션 운영 중](../ranking_algorithm/README.md)
