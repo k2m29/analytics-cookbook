@@ -40,9 +40,6 @@
 <a href="dashboards/README.md"><img src="dashboards/images/gmv_breakdown_sample.png" alt="GMV Breakdown Dashboard" width="49%"></a>
 </p>
 
-🎪 **[Conference Notes](conferences/README.md)** — 컨퍼런스 참관기 8건 (2024.07~2026.06)
-🍳 실무 재구현 케이스 스터디와 분석 레시피 노트북은 별도 저장소(**analytics-cookbook**)로 준비 중
-
 ---
 
 ## 📋 Complete Project List — 30+ projects
@@ -82,6 +79,13 @@
 1. **모든 데이터는 합성·가명 데이터입니다.** 실제 회사 데이터·코드·내부 기준값은 일절 포함하지 않으며, 모든 케이스는 공개 가능한 형태로 재구현했습니다.
 2. **레시피 형식**: `언제 쓰나 → 재료(데이터 형태) → 코드 → 주의할 점`. "언제 쓰나"는 전부 실무에서 직접 겪은 상황입니다.
 3. **검증 규율**: 모든 노트북은 첫 셀에 "확인해야 할 질문"을 먼저 쓰고 시작하며, Sanity Check 셀을 상설로 둡니다.
+
+---
+
+## 📎 그 외
+
+- 🎪 **[Conference Notes](conferences/README.md)** — 컨퍼런스 참관기 8건 (2024.07~2026.06)
+- 🍳 실무 재구현 케이스 스터디와 분석 레시피 노트북은 별도 저장소(**analytics-cookbook**)로 준비 중
 
 ---
 
