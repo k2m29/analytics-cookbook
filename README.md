@@ -3,13 +3,13 @@
 > **비즈니스를 먼저 경험한 데이터 분석가의 포트폴리오 저장소**
 > 이커머스 앱마켓에서 마케팅 운영을 하며 필요해서 시작한 분석이, 지금은 본업이 되었습니다.
 >
-> *I believe good analytics starts with understanding the business problem — before writing SQL.*
+> *I believe good analytics starts with understanding the business problem.*
 
 ---
 
 ## 👋 소개
 
-**15년 경력의 Business Analyst** — 최근 10년은 이커머스 앱마켓(MAU 천만 규모)에서 마케팅 운영과 데이터 분석을 해왔습니다.
+비즈니스 문제를 데이터와 시스템으로 해결하는 15년 경력의 Business Analyst. 최근 10년간 MAU 1,000만 규모의 이커머스 앱마켓에서 마케팅 운영과 데이터 분석을 수행해 왔습니다.
 
 **Core Strengths**
 
