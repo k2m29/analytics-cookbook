@@ -42,7 +42,7 @@
 
 ➕ **[Complete Project List](PROJECTS.md)** — 30+ projects (실험 설계·세그멘테이션·랭킹·자동화, 증빙 링크 포함)
 🎪 **[Conference Notes](conferences/)** — 컨퍼런스 참관기 8건 (2024.07~2026.06)
-🧪 **case_studies/** — 실무 재구현 케이스 스터디 (작성 중) · 🍳 분석 레시피 노트북(analytics-cookbook)은 별도 저장소로 준비 중
+🍳 실무 재구현 케이스 스터디와 분석 레시피 노트북은 별도 저장소(**analytics-cookbook**)로 준비 중
 
 ---
 
