@@ -3,7 +3,7 @@
 > **비즈니스를 먼저 경험한 데이터 분석가의 포트폴리오 저장소**
 > 이커머스 앱마켓에서 마케팅 운영을 하며 필요해서 시작한 분석이, 지금은 본업이 되었습니다.
 >
-> *I believe good analytics starts with understanding the business problem — before writing SQL.*
+> *I believe good analytics starts with understanding the business problem.*
 
 ---
 
