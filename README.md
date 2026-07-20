@@ -40,9 +40,25 @@
 <a href="dashboards/README.md"><img src="dashboards/images/gmv_breakdown_sample.png" alt="GMV Breakdown Dashboard" width="49%"></a>
 </p>
 
-➕ **[Complete Project List](PROJECTS.md)** — 30+ projects (실험 설계·세그멘테이션·랭킹·자동화, 증빙 링크 포함)
 🎪 **[Conference Notes](conferences/README.md)** — 컨퍼런스 참관기 8건 (2024.07~2026.06)
 🍳 실무 재구현 케이스 스터디와 분석 레시피 노트북은 별도 저장소(**analytics-cookbook**)로 준비 중
+
+---
+
+## 📋 Complete Project List — 30+ projects
+
+6개 영역, 30건+ 분석·구축 이력입니다. 전체 목록은 **[PROJECTS.md](PROJECTS.md)**에 시기·수행 내용·핵심 기법과 함께 정리되어 있습니다 (⭐ 포트폴리오 수록 6건, 🖼 재현 샘플 링크 포함).
+
+| 영역 | 대표 프로젝트 |
+|---|---|
+| 🧪 실험 설계 · A/B 테스트 | 결제수단 전환 A/B 테스트 1차(2×2 세그먼트 설계) → 후속 재설계로 **CAC 약 30% 절감** |
+| 🎯 프로모션 · 이벤트 분석 | 프로모션 사후분석 정례화(순증 효과·체리피커 분리·ROI), 신규 게임 유입 마케팅 효과 분석(4개 타이틀 교차 검증) |
+| 👥 세그멘테이션 · 코호트 | 크레딧 정책 변경 1년 코호트 추적, 결제액×등록여부 Tier 세그먼트, 신규/복귀/기존 유입 분해 |
+| 🏆 랭킹 · 스코어링 · 분류체계 | 시간감쇠 신작 랭킹(프로덕션 운영 중), 2축 패싯 분류체계(1,200+ 상품 라벨링) |
+| ⚙️ 파이프라인 · 자동화 | 프로모션 대상 선정 자동화, 업무 오케스트레이션(**4시간 → 10분**), BI 연동 정례 리포팅 |
+| 📊 대시보드 · 거버넌스 · KM | GMV Breakdown 대시보드, SQL Dictionary(21개 테이블·377개 컬럼), 파트너 온보딩 Knowledge Hub |
+
+➡️ **[전체 목록 보기 → PROJECTS.md](PROJECTS.md)**
 
 ---
 
