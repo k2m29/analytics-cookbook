@@ -24,7 +24,13 @@ X=신규 다운로더, Y=거래액(로그-로그) 산점도에 Tableau Pages 히
 
 ![Coupon Funnel](images/coupon_funnel_sample.png)
 
-## 4. SQL Dictionary (SharePoint 위키)
+## 4. 시간감쇠 기반 신작 랭킹 — 프로덕션 실화면
+
+2019년에 설계한 신작 랭킹 알고리즘(신선도 부스트 + 다중 지표 정규화 가중합)이 적용된 **'최신출시' 탭의 현재 실서비스 화면**입니다. 기존 인기·매출 랭킹을 신작이 뚫지 못하는 문제를 해결하기 위해 설계했고, 개발 이관 후 현재까지 프로덕션에서 운영 중입니다. 공개된 앱 화면이므로 마스킹 없이 게시합니다.
+
+<img src="images/ranking_newrelease_live.png" alt="New Release Ranking — Live" width="360">
+
+## 5. SQL Dictionary (SharePoint 위키)
 
 분석 쿼리 표준화를 위해 직접 구축·운영한 사내 위키. "같은 지표인데 사람마다 숫자가 다른" 문제를 기준정의 문서화로 해결.
 
